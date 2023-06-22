@@ -1,0 +1,15 @@
+app:
+  name: charlotte-angular-poi-map-app
+  namespace: charlotte-angular
+  cluster: .apps.cluster-gqd95.gqd95.sandbox1540.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/ultraJeffOrg/charlotte-angular-frontend
+  org: ultraJeffOrg
+  name: charlotte-angular-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: charlotte-angular/poi-map-app
+  tag: latest
